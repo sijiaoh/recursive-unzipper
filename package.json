@@ -1,4 +1,11 @@
 {
   "name": "recursive-unzipper",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "pkg --targets node14-win-x64 --output recursive-unzipper src/index.js"
+  },
+  "dependencies": {
+    "glob": "^7.1.7",
+    "pkg": "^5.3.0"
+  }
 }
